@@ -4,8 +4,8 @@
     font-family: 'VALORANT', sans-serif;
     box-sizing: border-box;
 }
-.plate{
-    background: url (home-bg.gif);
+header{
+    background-image: url (home-bg.gif);
     height: 100vh;
     width: 100%;
     background-position: center;
