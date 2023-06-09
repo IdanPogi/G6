@@ -4,11 +4,13 @@
     font-family: 'VALORANT', sans-serif;
     box-sizing: border-box;
 }
-header{
+.plate{
     background-image: url(homebg.gif);
     height: 100vh;
+    width: 100%;
     background-position: center;
     background-size: cover;
+    position: relative; 
 }
 .buttons{
   display: inline-block;
