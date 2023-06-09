@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'VALORANT', sans-serif;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(map-bg.gif);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.buttons{
+  display: inline-block;
+}
+.btn {
+   padding: 5px 20px;
+   font-size: 16px;
+   cursor: pointer;
+   margin: 14px;
+   border-color: 2px white;
+  }
+  .gameinfo {
+    border: 1px solid;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    transition: 0.6s ease;
+    border-radius: 20px ;
+    
+    
+  }
+  
+  .gameinfo:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 12px 16px 0 hsla(0, 100%, 100%, 0.834), 0 17px 50px 0 rgba(255, 255, 255, 0.807);
+  }
+
+  .maps {
+    border: 1px solid;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    transition: 0.6s ease;
+    border-radius: 20px ;
+    position: absolute;
+    left: 450px;
+    top: 18px;
+  
+  }
+  
+  .maps:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 12px 16px 0 hsla(0, 100%, 100%, 0.834), 0 17px 50px 0 rgba(255, 255, 255, 0.807);
+  }
+  
+  .agents {
+    border: 1px solid;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    transition: 0.6s ease;
+    border-radius: 20px ;
+    position: absolute;
+    left: 585px;
+    top: 18px;
+  
+  }
+  
+  .agents:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 12px 16px 0 hsla(0, 100%, 100%, 0.834), 0 17px 50px 0 rgba(255, 255, 255, 0.807);
+  }
+
+  .guides {
+    border: 1px solid;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    transition: 0.6s ease;
+    border-radius: 20px ;
+    position: absolute;
+    left: 735px;
+    top: 18px;
+  }
+  
+  .guides:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 12px 16px 0 hsla(0, 100%, 100%, 0.834), 0 17px 50px 0 rgba(255, 255, 255, 0.807);
+  }
+  
+  .home {
+    border: 1px solid;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    transition: 0.6s ease;
+    border-radius: 20px ;
+    position: absolute;
+    left: 890px;
+    top: 18px;
+    
+  }
+  
+  .home:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 12px 16px 0 hsla(0, 100%, 100%, 0.834), 0 17px 50px 0 rgba(255, 255, 255, 0.807);
+  }
+.logo img{
+    float: left;
+    width: 170px;
+    height: auto;
+}
+.logo2 img{
+    width: 100px;
+    height: auto;
+    float: left;
+}
+.main{
+    max-width: 1000px;
+    margin: auto;
+}
+.content{
+    text-align: center;
+}
+.content h4{
+  font-size: 12px;
+  -webkit-text-stroke: 1px white;
+  color: transparent;
+}
+
+.content h1{
+    font-size: 230px;
+    color: white;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.search-container{
+    float: right;
+}
+input[type=text]{
+    width: 430px;
+    padding: 15px;
+    margin-top: 13px;
+    font-size: 10px;
+    border: none;
+    border-radius: 30px;
+    position: absolute;
+    left: 1050px;
+    top: 14px;
+}
+.search-container button{
+    float: right;
+    padding: 11px 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background: #314507;
+    color: white;
+    font-size: 17px;
+    border-radius: 40px;
+    position: absolute;
+    left: 1445px;
+    top: 16px;
+}
+.mytabs {
+  float: left;
+  flex-wrap: wrap;
+  max-width: 1300px;
+  margin: 50px auto;
+  padding: 25px;
+  position: absolute;
+    left: 260px;
+    top: 45px;
+}
+.mytabs input[type="radio"] {
+  display: none;
+}
+.mytabs label {
+  padding: 25px;
+  border-radius: 30px;
+  border: 1px white;
+  background: white;
+  
+
+}
+
+.mytabs .tab1 {
+  width: 1000px;
+  height: 500px;
+  padding: 20px;
+  background-image: url(zMarcelo_imagem_2023-05-12_113330446_1683902011729.png);
+  display: none;
+}
+.mytabs .tab1 h2 {
+  font-size: 3em;
+}
+
+.mytabs input[type='radio']:checked + label + .tab1 {
+  display: block;
+}
+
+.mytabs input[type="radio"]:checked + label {
+  background: #fff;
+}
+.mytabs .tab2 {
+  width: 1000px;
+  height: 500px;
+  padding: 20px;
+  background-image: url(bind.png);
+  display: none;
+}
+.mytabs .tab2 h2 {
+  font-size: 3em;
+}
+
+.mytabs input[type='radio']:checked + label + .tab2 {
+  display: block;
+}
+
+.mytabs input[type="radio"]:checked + label {
+  background: #fff;
+}
+.mytabs .tab3 {
+  width: 1000px;
+  height: 500px;
+  padding: 20px;
+  background-image: url(haven.png);
+  display: none;
+}
+.mytabs .tab3 h2 {
+  font-size: 3em;
+}
+
+.mytabs input[type='radio']:checked + label + .tab3 {
+  display: block;
+}
+
+.mytabs input[type="radio"]:checked + label {
+  background: #fff;
+}
+.mytabs .tab4 {
+  width: 1000px;
+  height: 500px;
+  padding: 20px;
+  background-image: url(icebox.png);
+  display: none;
+}
+.mytabs .tab4 h2 {
+  font-size: 3em;
+}
+
+.mytabs input[type='radio']:checked + label + .tab4 {
+  display: block;
+}
+
+.mytabs input[type="radio"]:checked + label {
+  background: #fff;
+}
+.mytabs .tab5 {
+  width: 1000px;
+  height: 500px;
+  padding: 20px;
+  background-image: url(breeze.png);
+  display: none;
+}
+.mytabs .tab5 h2 {
+  font-size: 3em;
+}
+
+.mytabs input[type='radio']:checked + label + .tab5 {
+  display: block;
+}
+
+.mytabs input[type="radio"]:checked + label {
+  background: #fff;
+}
+.mytabs .tab6 {
+  width: 1000px;
+  height: 500px;
+  padding: 20px;
+  background-image: url(fracture.png);
+  display: none;
+}
+.mytabs .tab6 h2 {
+  font-size: 3em;
+}
+
+.mytabs input[type='radio']:checked + label + .tab6 {
+  display: block;
+}
+
+.mytabs input[type="radio"]:checked + label {
+  background: #fff;
+}
+.mytabs .tab7 {
+  width: 1000px;
+  height: 500px;
+  padding: 20px;
+  background-image: url(pearl.png);
+  display: none;
+}
+.mytabs .tab7 h2 {
+  font-size: 3em;
+}
+
+.mytabs input[type='radio']:checked + label + .tab7 {
+  display: block;
+}
+
+.mytabs input[type="radio"]:checked + label {
+  background: #fff;
+}
+.mytabs .tab8 {
+  width: 1000px;
+  height: 500px;
+  padding: 15px;
+  background-image: url(split.png);
+
+  display: none;
+}
+.mytabs .tab8 h2 {
+  font-size: 3em;
+}
+
+.mytabs input[type='radio']:checked + label + .tab8 {
+  display: block;
+}
+
+.mytabs input[type="radio"]:checked + label {
+  background: #fff;
+}
+.mytabs .tab9 {
+  width: 1000px;
+  height: 500px;
+  padding: 15px;
+  background-image: url(lotus.png);
+  display: none;
+}
+.mytabs .tab9 h2 {
+  font-size: 3em;
+}
+
+.mytabs input[type='radio']:checked + label + .tab9 {
+  display: block;
+}
+
+.mytabs input[type="radio"]:checked + label {
+  border: white;
+  border-radius: 30px;
+  background: rgb(106, 104, 104);
+  color: white;
+}
+.tab1 h2{
+  color: white;
+}
+.tab1 p{
+  color: white;
+}
+.tab2 h2{
+  color: white;
+}
+.tab2 p{
+  color: white;
+}
+.tab3 h2{
+  color: white;
+}
+.tab3 p{
+  color: white;
+}
+.tab4 h2{
+  color: white;
+}
+.tab4 p{
+  color: white;
+}
+.tab5 h2{
+  color: white;
+}
+.tab5 p{
+  color: white;
+}
+.tab6 h2{
+  color: white;
+}
+.tab6 p{
+  color: white;
+}
+.tab7 h2{
+  color: white;
+}
+.tab7 p{
+  color: white;
+}
+.tab8 h2{
+  color: white;
+}
+.tab8 p{
+  color: white;
+}
+.tab9 h2{
+  color: white;
+}
+.tab9 p{
+  color: white;
+}
