@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'VALORANT', sans-serif;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(47, 41, 41);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.buttons{
+  display: inline-block;
+}
+.btn {
+   padding: 5px 20px;
+   font-size: 16px;
+   cursor: pointer;
+   margin: 14px;
+   border-color: 2px white;
+  }
+  .gameinfo {
+    border: 1px solid;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    transition: 0.6s ease;
+    border-radius: 20px ;
+    
+    
+  }
+  
+  .gameinfo:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 12px 16px 0 hsla(0, 100%, 100%, 0.834), 0 17px 50px 0 rgba(255, 255, 255, 0.807);
+  }
+
+  .maps {
+    border: 1px solid;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    transition: 0.6s ease;
+    border-radius: 20px ;
+    position: absolute;
+    left: 450px;
+    top: 18px;
+  
+  }
+  
+  .maps:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 12px 16px 0 hsla(0, 100%, 100%, 0.834), 0 17px 50px 0 rgba(255, 255, 255, 0.807);
+  }
+  
+  .agents {
+    border: 1px solid;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    transition: 0.6s ease;
+    border-radius: 20px ;
+    position: absolute;
+    left: 585px;
+    top: 18px;
+  
+  }
+  
+  .agents:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 12px 16px 0 hsla(0, 100%, 100%, 0.834), 0 17px 50px 0 rgba(255, 255, 255, 0.807);
+  }
+
+  .guides {
+    border: 1px solid;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    transition: 0.6s ease;
+    border-radius: 20px ;
+    position: absolute;
+    left: 735px;
+    top: 18px;
+  }
+  
+  .guides:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 12px 16px 0 hsla(0, 100%, 100%, 0.834), 0 17px 50px 0 rgba(255, 255, 255, 0.807);
+  }
+  
+  .home {
+    border: 1px solid;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    transition: 0.6s ease;
+    border-radius: 20px ;
+    position: absolute;
+    left: 890px;
+    top: 18px;
+    
+  }
+  
+  .home:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 12px 16px 0 hsla(0, 100%, 100%, 0.834), 0 17px 50px 0 rgba(255, 255, 255, 0.807);
+  }
+.logo img{
+    float: left;
+    width: 170px;
+    height: auto;
+}
+.logo2 img{
+    width: 100px;
+    height: auto;
+    float: left;
+}
+.main{
+    max-width: 1000px;
+    margin: auto;
+}
+.content{
+    text-align: center;
+}
+.content h4{
+  font-size: 12px;
+  -webkit-text-stroke: 1px white;
+  color: transparent;
+}
+
+.content h1{
+    font-size: 230px;
+    color: white;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.search-container{
+    float: right;
+}
+input[type=text]{
+    width: 430px;
+    padding: 15px;
+    margin-top: 13px;
+    font-size: 10px;
+    border: none;
+    border-radius: 30px;
+    position: absolute;
+    left: 1050px;
+    top: 14px;
+}
+.search-container button{
+    float: right;
+    padding: 11px 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background: #314507;
+    color: white;
+    font-size: 17px;
+    border-radius: 40px;
+    position: absolute;
+    left: 1445px;
+    top: 16px;
+}
+.mytabs {
+  float: left;
+  flex-wrap: wrap;
+  max-width: 1300px;
+  margin: 50px auto;
+  padding: 25px;
+  position: absolute;
+    left: 260px;
+    top: 45px;
+}
+section{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.one {
+  background-image: url(Brimstone.png);
+  background-size: 100%;
+  height: 915px;
+}
+
+.two {
+  background-image: url(Phx.png);
+  background-size: 100%;
+  height: 915px;
+}
+
+.three {
+  background-image: url(Sage.png);
+  background-size: 100%;
+  height: 915px;
+}
+
+.four {
+  background-image: url(Sova.png);
+  background-size: 100%;
+  height: 915px;
+}
+
+.five {
+  background-image: url(Viper.png);
+  background-size: 100%;
+  height: 915px;
+}
+
+.six {
+  background-image: url(Cypher.png);
+  background-size: 100%;
+  height: 915px;
+}
+
+.seven {
+  background-image: url(Reyna.png);
+  background-size: 100%;
+  height: 915px;
+}
+
+.eight {
+  background-image: url(Killjoy.png);
+  background-size: 100%;
+  height: 915px;
+}
+
+.nine {
+  background-image: url(Breach.png);
+  background-size: 100%;
+  height: 915px;
+}
+
+.ten {
+  background-image: url(Omen.png);
+  background-size: 100%;
+  height: 915px;
+}
+
+.eleven {
+  background-image: url(Jett.png);
+  background-size: 100%;
+  height: 915px;
+}
+
+.twelve {
+  background-image: url(Raze.png);
+  background-size: 100%;
+  height: 915px;
+}
+
+.thirteen {
+  background-image: url(Skye.png);
+  background-size: 100%;
+  height: 915px;
+}
+
+.fourteen {
+  background-image: url(Yoru.png);
+  background-size: 100%;
+  height: 915px;
+}
+
+.fifteen {
+  background-image: url(Astra.png);
+  background-size: 100%;
+  height: 915px;
+}
+
+.sixteen {
+  background-image: url(Kay.o.png);
+  background-size: 100%;
+  height: 915px;
+}
+
+.seventeen {
+  background-image: url(Chamber.png);
+  background-size: 100%;
+  height: 915px;
+}
+
+.eighteen {
+  background-image: url(neon.png);
+  background-size: 100%;
+  height: 915px;
+}
+
+.nineteen {
+  background-image: url(Fade.png);
+  background-size: 100%;
+  height: 915px;
+}
+
+.twenty {
+  background-image: url(harbor.png);
+  background-size: 100%;
+  height: 860px;
+}
