@@ -4,7 +4,7 @@
     font-family: 'VALORANT', sans-serif;
     box-sizing: border-box;
 }
-body{
+header{
     background-image: url(home-bg.gif);
     height: 100vh;
     background-position: center;
